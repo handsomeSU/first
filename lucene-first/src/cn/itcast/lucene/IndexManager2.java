@@ -145,6 +145,7 @@ public class IndexManager2 {
 //		query.add(query1, Occur.MUST);
 //		query.add(query2, Occur.SHOULD);
 		System.out.println("查询语法"+query);
+		System.out.println("查询语"+query);
 		TopDocs topDocs = indexSearcher.search(query, 100);
 		System.out.println("总条数："+topDocs.totalHits);
 		ScoreDoc[] scoreDocs = topDocs.scoreDocs;

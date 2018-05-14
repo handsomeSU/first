@@ -33,7 +33,7 @@ import org.junit.Test;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
 public class IndexManager {
-
+	//发的发的发的发的顺丰
 	@Test
 	public void testAddIndex() throws Exception {
 //		1、执行索引库的目录
